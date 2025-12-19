@@ -8,7 +8,7 @@ package upnadirect157154;
  *
  * @author Ordenador Aitor
  */
-public class UpnaDirect157154 {
+public final class UpnaDirect157154 {
 
     private UpnaDirect157154() {
         throw new IllegalStateException("Utility class");
