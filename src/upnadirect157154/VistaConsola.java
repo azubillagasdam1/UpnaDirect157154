@@ -5,14 +5,13 @@ package upnadirect157154;
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 
+import java.util.Scanner;
+import java.time.LocalDate;
+
 /**
  *
  * @author Ordenador Aitor
  */
-
-import java.util.Scanner;
-import java.time.LocalDate;
-
 public class VistaConsola {
     
     private Scanner scan;
@@ -84,7 +83,7 @@ public class VistaConsola {
         else{
             System.out.print("Introduzca el valor de la vivienda, mayor a 50000: ");
             valor = scan.nextInt();
-            scan.nextLine();
+            scan.nextLine(); 
             
             while(valor < 50000 ){
                 System.out.print("Introduzca un valor valido,  mayor a 50000): ");

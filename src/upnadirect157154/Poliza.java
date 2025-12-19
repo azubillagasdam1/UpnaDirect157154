@@ -10,9 +10,9 @@ package upnadirect157154;
  * @author Ordenador Aitor
  */
 public class Poliza {
-      private Aseguradora aseguradoraResultado;
-      
-       public Poliza(Cliente cliente, Bien bien){
+       private Aseguradora aseguradoraResultado;
+       
+        public Poliza(Cliente cliente, Bien bien){
         int menorPrima = Integer.MAX_VALUE; //Nos da el numero mas grande posible
         
         Aseguradora[] aseguradoras = new Aseguradora[3];
@@ -37,9 +37,9 @@ public class Poliza {
         private int comision(Aseguradora a){
         if(a.prima() < 1000){
             return (int)(a.prima() * 0.01);
-        } else if(a.nombre().equals("Mafro")){
+        } else if("Mafro".equals(a.nombre())){
             return (int)(a.prima() * 0.03);
-        }else if(a.nombre().equals(("Linea Indirecta"))){
+        }else if("Linea Indirecta".equals(a.nombre())){
             return (int)(a.prima() * 0.04);
         }else {
         return (int)(a.prima() * 0.05);
@@ -50,4 +50,3 @@ public class Poliza {
         return  aseguradoraResultado.nombre().toUpperCase() + " | " + aseguradoraResultado.prima() + " | " + comision(aseguradoraResultado);
     }
 }
-

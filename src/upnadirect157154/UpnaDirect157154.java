@@ -10,6 +10,10 @@ package upnadirect157154;
  */
 public class UpnaDirect157154 {
 
+    private UpnaDirect157154() {
+        throw new IllegalStateException("Utility class");
+    }
+
     /**
      * @param args the command line arguments
      */
