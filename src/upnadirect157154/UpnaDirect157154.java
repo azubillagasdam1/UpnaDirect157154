@@ -15,7 +15,11 @@ public class UpnaDirect157154 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Hola");
+        System.out.println("Iniciando Programa...");
+        Presentador presentador = new Presentador(new VistaConsola());
+        presentador.crearPoliza();
+        presentador.mostrarPoliza();
+        System.out.println("Cerrando Programa...");
     }
     
 }
