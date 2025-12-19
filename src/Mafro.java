@@ -9,7 +9,7 @@
  */
 public class Mafro implements Aseguradora{
 
-    int prima;
+    private int prima;
     
      public Mafro(Bien b, Cliente c){
         if(b.getTipo() == Bien.TIPO_VEHICULO && c.esJoven()){
