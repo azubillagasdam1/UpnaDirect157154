@@ -11,8 +11,8 @@ import java.time.LocalDate;
  * @author Ordenador Aitor
  */
 public class Cliente {
-     int anoNacimiento;
-     int salario;
+     private int anoNacimiento;
+     private int salario;
     
     
     public Cliente(int ano, int salario){
@@ -21,14 +21,14 @@ public class Cliente {
     }
     
        public boolean esJoven(){
-        return (LocalDate.now().getYear() - this.anoNacimiento) <= 20;
+        return (LocalDate.now().getYear() - this.anoNacimiento) < 20;
     }
     
     public boolean esMayor() {
         return (LocalDate.now().getYear() - this.anoNacimiento) >= 60;
     }
     
-    public int salario(){
+    public int getSalario(){
         return this.salario;
     }
 }

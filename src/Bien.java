@@ -8,19 +8,23 @@
  * @author Ordenador Aitor
  */
 public class Bien {
-    int valor;
-    int tipo; // 1 para vivienda y 2 para vehiculo
+    
+    public static final int TIPO_VEHICULO = 1;
+    public static final int TIPO_VIVIENDA = 2;
+    
+    private int valor;
+    private int tipo; // 1 para vehiculo y 2 para vivienda
     
     
      public Bien(int valor, int tipo){
         this.valor = valor;
         this.tipo = tipo;
     }
-      public int valor(){
+      public int getValor(){
         return this.valor;
     }
     
-    public int tipo(){
+    public int getTipo(){
         return this.tipo;
     }
 }
