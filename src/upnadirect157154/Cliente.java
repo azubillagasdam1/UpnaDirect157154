@@ -23,7 +23,7 @@ public class Cliente {
     }
     
        public boolean esJoven(){
-        return (LocalDate.now().getYear() - this.anoNacimiento) < 20;
+        return (LocalDate.now().getYear() - this.anoNacimiento) <= 20;
     }
     
     public boolean esMayor() {
