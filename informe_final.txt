@@ -1,0 +1,5 @@
+C:\Users\Ordenador Aitor\Desktop\UPNADIRECT\UpnaDirect157154\src\upnadirect157154\Poliza.java:40:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+C:\Users\Ordenador Aitor\Desktop\UPNADIRECT\UpnaDirect157154\src\upnadirect157154\Poliza.java:42:	LiteralsFirstInComparisons:	Position literals first in String comparisons
+C:\Users\Ordenador Aitor\Desktop\UPNADIRECT\UpnaDirect157154\src\upnadirect157154\Poliza.java:42:	UselessParentheses:	Useless parentheses around `"Linea Indirecta"`.
+C:\Users\Ordenador Aitor\Desktop\UPNADIRECT\UpnaDirect157154\src\upnadirect157154\UpnaDirect157154.java:11:	UseUtilityClass:	All methods are static. Consider adding a private no-args constructor to prevent instantiation.
+C:\Users\Ordenador Aitor\Desktop\UPNADIRECT\UpnaDirect157154\src\upnadirect157154\VistaConsola.java:8:	DanglingJavadoc:	Javadoc comment does not belong to any class, method or field

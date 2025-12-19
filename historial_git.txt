@@ -1,0 +1,47 @@
+commit a3689cacab1f1d6639f7a6b729c1c94e2ec6ad00
+Author: azubillagasdam1 <azubillagasdam1@gmail.com>
+Date:   Fri Dec 19 12:24:19 2025 +0100
+
+    Terminado programa principal y reajustado
+
+commit c30ff8db7022ef7e36d9ec7511bc2e37f584925e
+Author: azubillagasdam1 <azubillagasdam1@gmail.com>
+Date:   Fri Dec 19 12:00:30 2025 +0100
+
+    Otras clases creadas
+
+commit 5d8496deeedaaef9c9f1d284681d2c8e5dd21f00
+Author: azubillagasdam1 <azubillagasdam1@gmail.com>
+Date:   Fri Dec 19 11:40:53 2025 +0100
+
+    Compañias creadas
+
+commit b35c66e94b52f7ef9facfbcc17c85bf1276cb140
+Author: azubillagasdam1 <azubillagasdam1@gmail.com>
+Date:   Fri Dec 19 11:32:56 2025 +0100
+
+    Mafro creado y unos ajustes
+
+commit 92282e18734b48eff8a67958e7cc765698c0984a
+Author: azubillagasdam1 <azubillagasdam1@gmail.com>
+Date:   Fri Dec 19 10:41:23 2025 +0100
+
+    Bien creado
+
+commit db8d12abc6c448b7d29f7aeae6c7f4bc63b1cae0
+Author: azubillagasdam1 <azubillagasdam1@gmail.com>
+Date:   Fri Dec 19 10:35:54 2025 +0100
+
+    Cliente creado
+
+commit 58760be482bb33fdab7367f6695f1e408cb2ccdb
+Author: azubillagasdam1 <azubillagasdam1@gmail.com>
+Date:   Thu Dec 18 23:21:43 2025 +0100
+
+    Primer commit, proyecto creado
+
+commit b7ee9404eb221d82da0556345ae321b779902022
+Author: azubillagasdam1 <azubillagasdam1@gmail.com>
+Date:   Thu Dec 18 23:09:59 2025 +0100
+
+    first commit
